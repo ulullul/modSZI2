@@ -1,0 +1,112 @@
+@import '../../components/variables.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  color: rgb(96, 97, 98);
+  font: bold;
+  font-size: 32px;
+  max-width: var(--max-content-width);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.controlContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: row;
+  min-width: 391px;
+  position: relative;
+}
+
+.dataInput {
+  padding-left: 45px;
+  position: relative;
+}
+
+.dataInputForNumber {
+  position: relative;
+  padding-left: 30px;
+}
+
+.dataInput:before {
+  content: '';
+  border-left: 1px solid #ced4da;
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  width: 1px;
+  top: 0;
+}
+
+.deltaInputContainer {
+  position: relative;
+  width: 33%;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.deltaSymbol {
+  position: absolute;
+  font-size: 20px;
+  left: 8px;
+  z-index: 1;
+}
+
+
+.deltaMinus, .deltaPlus {
+  position: absolute;
+  top: -8px;
+}
+
+.col {
+  vertical-align: middle!important;
+  padding: 1.5rem!important;
+}
+
+.resourceNumber {
+  position: absolute;
+  font-size: 10px;
+  top: -20px;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: max-content;
+}
+
+.threatNumber {
+  position: absolute;
+  font-size: 10px;
+  top: -20px;
+}
+
+.arrowDown {
+  transform: rotate(90deg);
+  display: inline-block;
+  font-size: 18px;
+  line-height: 5px;
+}
+
+.tableContainer {
+  overflow-x: auto;
+  max-width: 1600px;
+  margin: 0 auto;
+}
