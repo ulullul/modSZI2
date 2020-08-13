@@ -57,7 +57,7 @@
     "redux-form": "~8.3.1",
     "redux-thunk": "~2.3.0",
     "regenerator-runtime": "0.13.3",
-    "serialize-javascript": "~3.0.0",
+    "serialize-javascript": "~3.1.0",
     "source-map-support": "0.5.16",
     "universal-router": "~9.0.0",
     "whatwg-fetch": "~3.0.0"
