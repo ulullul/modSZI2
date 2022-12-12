@@ -39,7 +39,7 @@
     "compression": "~1.7.4",
     "cookie-parser": "~1.4.4",
     "core-js": "~3.6.4",
-    "express": "~4.17.1",
+    "express": "~4.17.3",
     "history": "~4.10.1",
     "immutable": "~4.0.0-rc.12",
     "isomorphic-cookie": "~1.2.4",
